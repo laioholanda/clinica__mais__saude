@@ -1,0 +1,142 @@
+.consultas{
+    margin: 0 2rem;
+}
+.card{
+    margin-bottom: 1rem;
+    margin-bottom: 0 2rem;
+}
+.semana__data{
+    font-weight: 700;
+    margin: 1rem 2rem;
+    display: flex;
+}
+
+.semana__lista{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.sem__comunic{
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.semana__lista,.sem__comunic{
+    border-bottom: 0.1rem solid var(--cor-fundo-secundaria);
+    padding-bottom: 1rem ;
+    background-color: var(--cor-de-fundo);
+    padding: 1rem 1rem;
+
+}
+
+.sem__lista__itens{
+    display: flex;
+    align-items: center;   
+}
+
+
+.list__itens__foto{
+    margin-right: 1rem;
+}
+
+.nome__cliente{
+    font-size: 0.875;
+    font-weight: 700;
+}
+
+.cliente__form__atend{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+
+}
+
+
+.nome__atendimento{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cor-secundaria-fonte);
+}
+
+.sem__list__mens__img{
+    background-image: url("../img/mensagem.svg");
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    margin-left: auto;
+}
+
+.forma__horario{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.forma__item{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.form__item__video,.form__item__audio{
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.9rem 0.4rem;
+    border-radius: 0.5rem;
+
+}
+
+.form__item__video{
+    background-color: var(--laranja);
+    color: var(--cor-de-fundo);
+}
+
+.form__item__audio{
+    background-color: transparent;
+    color: var(--cor-font-pinc);
+    border: 2px solid var(--cor-fundo-secundaria);
+}
+
+.form__item__end{
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: var( --azul-botao);
+    color: var(--cor-de-fundo);
+    padding: 0.9rem 0;
+    width: 100% ;
+    text-align: center;
+
+}
+.fim{
+    margin-bottom: 5rem;
+}
+
+
+@media screen and (min-width:768px) {
+    .consultas{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 48%;
+    }
+    
+    .form__item__video,.form__item__audio{
+        padding: 0.9rem 1.2rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card{
+        width: 30%;
+    }
+
+    .form__item__video,.form__item__audio,.form__item__end{
+        font-size: 1rem;
+    }
+}
