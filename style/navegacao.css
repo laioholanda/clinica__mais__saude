@@ -4,9 +4,10 @@
     bottom: 0%;
     width: 99vw;
     border-radius: 0.75rem 0.75rem 0 0rem;
-    height: 10%;
+    padding: 1rem 0;
     
 }
+
 .nav__item__consulta{
     background-image: url("../img/calendario.png");
 }
@@ -122,6 +123,9 @@
     display: block;
 }
 
+.suspens__input{
+    display: none;
+}
 
 .susp__escurec{
     background-color: var(--escurecer);
