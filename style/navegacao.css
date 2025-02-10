@@ -10,16 +10,23 @@
 
 .nav__item__consulta{
     background-image: url("../img/calendario.png");
+    width: 2rem;
+    
 }
 .nav__item__cliente{
     background-image: url('../img/perfil\ \(1\).png');
+    width: 2rem;
+
 }
 .nav__item__relatorio{
     background-image: url('../img/relatorio.png');
+    width: 2rem;
 }
 .nav__item__Menu{
     background-image: url('../img/menu-aberto.png');
+    width: 2rem;
 }
+
 
 .nav__item__consulta,
 .nav__item__cliente,
@@ -52,11 +59,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100%;
 }
 
-.nav__list__item,
-.susp__lista{
+.nav__list__item{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,4 +193,31 @@
         bottom: 22%;
         right: 9%
     }
+
+    .navegacao{
+        top: 0%;
+        width: 6rem;
+        box-shadow: 0 0px 20px 2px rgb(0, 0, 0, 0.1);
+        
+    }
+
+    .navegacao__lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+    }
+
+    .cabecalho,.consultas,.consultas{
+        margin-left: 12rem;
+    }
+
+    .semana__data{
+        margin-left: 12rem;
+    }
+
+    .item__positivo{
+        display: none;
+    }
+
 }
